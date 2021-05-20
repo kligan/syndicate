@@ -2,8 +2,6 @@ const words = Object.freeze(['spray', 'limit', 'elite', 'exuberant', 'destructio
 
 const output = words
 
-console.log(words)
-
 function arrayTransform (arr){
     const uppercased = arr.map(name => name.toUpperCase());
     const result = uppercased.filter(word => word.length > 6);
@@ -11,4 +9,4 @@ function arrayTransform (arr){
     console.log(result)
 }
 
-arrayTransform(words)
+arrayTransform(output)
